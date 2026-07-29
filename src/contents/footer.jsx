@@ -15,7 +15,7 @@ function Footer(){
 
     return (
         <>
-            <footer className="w-full py-section-gap mt-14 flex flex-col items-center gap-4 text-center">
+            <footer className="w-full py-section-gap mt-10 flex flex-col items-center gap-4 text-center">
 
                 <p className="font-body-sm text-body-sm text-on-surface-variant">© {getCurrentYear()} Portfolio</p>
 
