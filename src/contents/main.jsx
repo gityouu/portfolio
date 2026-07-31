@@ -2,7 +2,7 @@ import 'react';
 
 function Main(){
     return (
-        <main className="max-w-container-max mx-auto px-edge-margin pt-20 pb-10 flex flex-col items-center">
+        <main className="max-w-container-max mx-auto px-edge-margin pt-35 pb-10 flex flex-col items-center">
             {/*<!-- Profile Header Section */}
             <section className="text-center mb-section-gap w-full">
 
@@ -35,7 +35,7 @@ function Main(){
 
                 <a className={"flex items-center justify-center py-5 px-glass-padding rounded-xl w-full group border " +
                     "border-white/30 bg-white/5 hover:bg-white/10 hover:border-white/50 transition-all"}
-                   href="#">
+                   href="https://linkedin.com/in/ransford-frimpong-957199330" target={'_blank'} rel="noopener noreferrer">
 
                     <span className={"font-label-caps text-label-caps uppercase tracking-widest flex items-center " +
                         "gap-3 text-primary"}>
@@ -48,7 +48,7 @@ function Main(){
 
                 <a className={"flex items-center justify-center py-5 px-glass-padding rounded-xl w-full group border " +
                     "border-white/30 bg-white/5 hover:bg-white/10 hover:border-white/50 transition-all"}
-                   href="#">
+                   href="https://x.com/BigCodesxl" target={'_blank'} rel="noopener noreferrer">
 
                     <span className={"font-label-caps text-label-caps uppercase tracking-widest flex items-center " +
                         "gap-3 text-primary"}>
@@ -59,18 +59,18 @@ function Main(){
                     </span>
                 </a>
 
-                <a className={"flex items-center justify-center py-5 px-glass-padding rounded-xl w-full group border " +
-                    "border-white/30 bg-white/5 hover:bg-white/10 hover:border-white/50 transition-all " +
-                    "md:col-span-3"} href="#">
+                {/*<a className={"flex items-center justify-center py-5 px-glass-padding rounded-xl w-full group border " +*/}
+                {/*    "border-white/30 bg-white/5 hover:bg-white/10 hover:border-white/50 transition-all " +*/}
+                {/*    "md:col-span-3"} href="#">*/}
 
-                    <span className={"font-label-caps text-label-caps uppercase tracking-widest flex items-center " +
-                        "gap-3 text-primary"}>
+                {/*    <span className={"font-label-caps text-label-caps uppercase tracking-widest flex items-center " +*/}
+                {/*        "gap-3 text-primary"}>*/}
 
-                        <span className="material-symbols-outlined text-[18px]">language</span>
+                {/*        <span className="material-symbols-outlined text-[18px]">language</span>*/}
 
-                        Full Portfolio
-                    </span>
-                </a>
+                {/*        Full Portfolio*/}
+                {/*    </span>*/}
+                {/*</a>*/}
             </section>
 
             {/*<!-- Credentials Archive Section */}
