@@ -30,13 +30,13 @@ function CertsGalleryModal() {
 
     const certificates = [
         {
-            src: 'src/assets/foundations-of-project-management.jpg',
+            src: '/assets/foundations-of-project-management.jpg',
             alt: 'Google Project Management Professional',
             title: 'Google Project Management Professional',
             subtitle: 'Strategic Planning & Execution'
         },
         {
-            src: 'src/assets/project-initiation-starting-a-successful-project.jpg',
+            src: '/assets/project-initiation-starting-a-successful-project.jpg',
             alt: 'Information Technology Degree',
             title: 'Graduate in Information Technology',
             subtitle: 'Full Stack Developer'

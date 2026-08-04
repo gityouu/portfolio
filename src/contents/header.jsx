@@ -33,7 +33,7 @@ function Header() {
                         <img
                             alt={'profile photo'}
                             className={'w-full h-full object-cover cursor-pointer'}
-                            src={'src/assets/pp.jpg'}
+                            src={'/assets/pp.jpg'}
                             onClick={toggleZoom} draggable={false} onContextMenu={(e) => e.preventDefault()}
                         />
                     </div>
@@ -60,7 +60,7 @@ function Header() {
                         <img
                             alt={'zoomed profile photo'}
                             className={'w-full h-full object-cover'}
-                            src={'src/assets/pp.jpg'}
+                            src={'/assets/pp.jpg'}
                             onContextMenu={(e) => e.preventDefault()} draggable={false}
                         />
                         <button
